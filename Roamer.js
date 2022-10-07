@@ -238,3 +238,8 @@ mediaQuery.addListener(handleTabletChange)
 handleTabletChange(mediaQuery)
 
 /* Ends Here Detect if Visible */
+
+var someDummyThing;
+let add = someDummyThing;
+someDummyThing = "iyi bari";
+console.log(someDummyThing);
