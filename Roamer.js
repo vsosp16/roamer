@@ -243,3 +243,5 @@ var someDummyThing;
 let add = someDummyThing;
 someDummyThing = "iyi bari";
 console.log(someDummyThing);
+someDummyThing = 1;
+alert(someDummyThing);
