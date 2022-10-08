@@ -11,6 +11,7 @@ trigger.addEventListener('mouseover', function(){
   document.querySelectorAll('.service-menu-brand').forEach(target => target.classList.add('showcase-menu-active'));
   document.querySelectorAll('.service-item-build').forEach(target => target.classList.remove('showcase-menu-active'));
   document.querySelectorAll('.service-item-media').forEach(target => target.classList.remove('showcase-menu-active'));
+  document.querySelectorAll('.service-item-design').forEach(target => target.classList.remove('showcase-menu-active'));
 });
 });  
 
@@ -23,6 +24,8 @@ trigger.addEventListener('mouseover', function(){
   document.querySelectorAll('.service-inner-design-text').forEach(target => target.classList.add('active-images'));  
   document.querySelectorAll('.service-item-design').forEach(target => target.classList.add('showcase-menu-active'));
   document.querySelectorAll('.service-menu-brand').forEach(target => target.classList.remove('showcase-menu-active'));
+  document.querySelectorAll('.service-item-build').forEach(target => target.classList.remove('showcase-menu-active'));
+  document.querySelectorAll('.service-item-media').forEach(target => target.classList.remove('showcase-menu-active'));
 });
 }); 
 
@@ -34,6 +37,9 @@ trigger.addEventListener('mouseover', function(){
   document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
   document.querySelectorAll('.service-inner-media-text').forEach(target => target.classList.add('active-images'));
   document.querySelectorAll('.service-item-media').forEach(target => target.classList.add('showcase-menu-active'));
+  document.querySelectorAll('.service-item-design').forEach(target => target.classList.remove('showcase-menu-active'));
+  document.querySelectorAll('.service-menu-brand').forEach(target => target.classList.remove('showcase-menu-active'));
+  document.querySelectorAll('.service-item-build').forEach(target => target.classList.remove('showcase-menu-active'));
 });
 }); 
 
@@ -45,6 +51,9 @@ trigger.addEventListener('mouseover', function(){
   document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
   document.querySelectorAll('.service-inner-build-text').forEach(target => target.classList.add('active-images'));  
   document.querySelectorAll('.service-item-build').forEach(target => target.classList.add('showcase-menu-active'));
+  document.querySelectorAll('.service-item-media').forEach(target => target.classList.remove('showcase-menu-active'));
+  document.querySelectorAll('.service-item-design').forEach(target => target.classList.remove('showcase-menu-active'));
+  document.querySelectorAll('.service-menu-brand').forEach(target => target.classList.remove('showcase-menu-active'));
 });
 });  
 
