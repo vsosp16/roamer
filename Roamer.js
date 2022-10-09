@@ -8,10 +8,8 @@ trigger.addEventListener('mouseover', function(){
   document.querySelectorAll('.brand-images').forEach(target => target.classList.add('active-images'));
   document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
   document.querySelectorAll('.service-inner-brand-text').forEach(target => target.classList.add('active-images'));
+  document.querySelectorAll('.service-menu-item').forEach(target => target.classList.remove('showcase-menu-active'));
   document.querySelectorAll('.service-menu-brand').forEach(target => target.classList.add('showcase-menu-active'));
-  document.querySelectorAll('.service-item-build').forEach(target => target.classList.remove('showcase-menu-active'));
-  document.querySelectorAll('.service-item-media').forEach(target => target.classList.remove('showcase-menu-active'));
-  document.querySelectorAll('.service-item-design').forEach(target => target.classList.remove('showcase-menu-active'));
 });
 });  
 
@@ -22,10 +20,8 @@ trigger.addEventListener('mouseover', function(){
   document.querySelectorAll('.design-images').forEach(target => target.classList.add('active-images'));
   document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
   document.querySelectorAll('.service-inner-design-text').forEach(target => target.classList.add('active-images'));  
+  document.querySelectorAll('.service-menu-item').forEach(target => target.classList.remove('showcase-menu-active'));
   document.querySelectorAll('.service-item-design').forEach(target => target.classList.add('showcase-menu-active'));
-  document.querySelectorAll('.service-menu-brand').forEach(target => target.classList.remove('showcase-menu-active'));
-  document.querySelectorAll('.service-item-build').forEach(target => target.classList.remove('showcase-menu-active'));
-  document.querySelectorAll('.service-item-media').forEach(target => target.classList.remove('showcase-menu-active'));
 });
 }); 
 
@@ -36,10 +32,8 @@ trigger.addEventListener('mouseover', function(){
   document.querySelectorAll('.media-images').forEach(target => target.classList.add('active-images'));
   document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
   document.querySelectorAll('.service-inner-media-text').forEach(target => target.classList.add('active-images'));
+  document.querySelectorAll('.service-menu-item').forEach(target => target.classList.remove('showcase-menu-active'));
   document.querySelectorAll('.service-item-media').forEach(target => target.classList.add('showcase-menu-active'));
-  document.querySelectorAll('.service-item-design').forEach(target => target.classList.remove('showcase-menu-active'));
-  document.querySelectorAll('.service-menu-brand').forEach(target => target.classList.remove('showcase-menu-active'));
-  document.querySelectorAll('.service-item-build').forEach(target => target.classList.remove('showcase-menu-active'));
 });
 }); 
 
@@ -50,15 +44,17 @@ trigger.addEventListener('mouseover', function(){
   document.querySelectorAll('.build-images').forEach(target => target.classList.add('active-images'));
   document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
   document.querySelectorAll('.service-inner-build-text').forEach(target => target.classList.add('active-images'));  
-  document.querySelectorAll('.service-item-build').forEach(target => target.classList.add('showcase-menu-active'));
-  document.querySelectorAll('.service-item-media').forEach(target => target.classList.remove('showcase-menu-active'));
-  document.querySelectorAll('.service-item-design').forEach(target => target.classList.remove('showcase-menu-active'));
-  document.querySelectorAll('.service-menu-brand').forEach(target => target.classList.remove('showcase-menu-active'));
+  document.querySelectorAll('.service-menu-item').forEach(target => target.classList.remove('showcase-menu-active'));
+  document.querySelectorAll('.service-item-build').forEach(target => target.classList.add('showcase-menu-active')); 
 });
 });  
 
 
 });
+/* 
+TEST CODE FOR VERSIONING
+*/
+console.log("güncel dosya geldi");
 
 // Detect if Visible
 // Create a condition that targets viewports at least 768px wide
