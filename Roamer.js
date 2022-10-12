@@ -255,10 +255,6 @@ let metaTabColor = document.querySelector("meta[name='theme-color']");
 
 let EnterObserverTargetsForWhiteSection = document.querySelectorAll('#services, #showcase-section');
 
-EnterObserverTargetsForWhiteSection.forEach((section) => {
-    EnterObserverForWhiteSection.observe(section);
-});
-
 /*callback function*/
 function callbackWhiteSection(entry) {
 
@@ -281,4 +277,7 @@ const WhiteSectionOptions = {
 
 const EnterObserverForWhiteSection = new IntersectionObserver(callbackWhiteSection, WhiteSectionOptions);
 
+EnterObserverTargetsForWhiteSection.forEach((section) => {
+    EnterObserverForWhiteSection.observe(section);
+});
 
