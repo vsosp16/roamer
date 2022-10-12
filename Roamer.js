@@ -1,53 +1,53 @@
 // SERVICE IMAGES HOVER EFFECT HOMEPAGE
 // ------------------------------------
 document.addEventListener('DOMContentLoaded', () => {
-  // Brand Images
-document.querySelectorAll('.service-menu-brand').forEach(trigger => {
-trigger.addEventListener('mouseover', function(){ 
-  document.querySelectorAll('.service-images').forEach(target => target.classList.remove('active-images'));
-  document.querySelectorAll('.brand-images').forEach(target => target.classList.add('active-images'));
-  document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
-  document.querySelectorAll('.service-inner-brand-text').forEach(target => target.classList.add('active-images'));
-  document.querySelectorAll('.service-menu-item').forEach(target => target.classList.remove('showcase-menu-active'));
-  document.querySelectorAll('.service-menu-brand').forEach(target => target.classList.add('showcase-menu-active'));
-});
-});  
+    // Brand Images
+    document.querySelectorAll('.service-menu-brand').forEach(trigger => {
+        trigger.addEventListener('mouseover', function () {
+            document.querySelectorAll('.service-images').forEach(target => target.classList.remove('active-images'));
+            document.querySelectorAll('.brand-images').forEach(target => target.classList.add('active-images'));
+            document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
+            document.querySelectorAll('.service-inner-brand-text').forEach(target => target.classList.add('active-images'));
+            document.querySelectorAll('.service-menu-item').forEach(target => target.classList.remove('showcase-menu-active'));
+            document.querySelectorAll('.service-menu-brand').forEach(target => target.classList.add('showcase-menu-active'));
+        });
+    });
 
-//  Design Images
-document.querySelectorAll('.service-item-design').forEach(trigger => {
-trigger.addEventListener('mouseover', function(){ 
-  document.querySelectorAll('.service-images').forEach(target => target.classList.remove('active-images'));
-  document.querySelectorAll('.design-images').forEach(target => target.classList.add('active-images'));
-  document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
-  document.querySelectorAll('.service-inner-design-text').forEach(target => target.classList.add('active-images'));  
-  document.querySelectorAll('.service-menu-item').forEach(target => target.classList.remove('showcase-menu-active'));
-  document.querySelectorAll('.service-item-design').forEach(target => target.classList.add('showcase-menu-active'));
-});
-}); 
+    //  Design Images
+    document.querySelectorAll('.service-item-design').forEach(trigger => {
+        trigger.addEventListener('mouseover', function () {
+            document.querySelectorAll('.service-images').forEach(target => target.classList.remove('active-images'));
+            document.querySelectorAll('.design-images').forEach(target => target.classList.add('active-images'));
+            document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
+            document.querySelectorAll('.service-inner-design-text').forEach(target => target.classList.add('active-images'));
+            document.querySelectorAll('.service-menu-item').forEach(target => target.classList.remove('showcase-menu-active'));
+            document.querySelectorAll('.service-item-design').forEach(target => target.classList.add('showcase-menu-active'));
+        });
+    });
 
-// Media Images
-document.querySelectorAll('.service-item-media').forEach(trigger => {
-trigger.addEventListener('mouseover', function(){ 
-  document.querySelectorAll('.service-images').forEach(target => target.classList.remove('active-images'));
-  document.querySelectorAll('.media-images').forEach(target => target.classList.add('active-images'));
-  document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
-  document.querySelectorAll('.service-inner-media-text').forEach(target => target.classList.add('active-images'));
-  document.querySelectorAll('.service-menu-item').forEach(target => target.classList.remove('showcase-menu-active'));
-  document.querySelectorAll('.service-item-media').forEach(target => target.classList.add('showcase-menu-active'));
-});
-}); 
+    // Media Images
+    document.querySelectorAll('.service-item-media').forEach(trigger => {
+        trigger.addEventListener('mouseover', function () {
+            document.querySelectorAll('.service-images').forEach(target => target.classList.remove('active-images'));
+            document.querySelectorAll('.media-images').forEach(target => target.classList.add('active-images'));
+            document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
+            document.querySelectorAll('.service-inner-media-text').forEach(target => target.classList.add('active-images'));
+            document.querySelectorAll('.service-menu-item').forEach(target => target.classList.remove('showcase-menu-active'));
+            document.querySelectorAll('.service-item-media').forEach(target => target.classList.add('showcase-menu-active'));
+        });
+    });
 
-//  Build Images
-document.querySelectorAll('.service-item-build').forEach(trigger => {
-trigger.addEventListener('mouseover', function(){ 
-  document.querySelectorAll('.service-images').forEach(target => target.classList.remove('active-images'));
-  document.querySelectorAll('.build-images').forEach(target => target.classList.add('active-images'));
-  document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
-  document.querySelectorAll('.service-inner-build-text').forEach(target => target.classList.add('active-images'));  
-  document.querySelectorAll('.service-menu-item').forEach(target => target.classList.remove('showcase-menu-active'));
-  document.querySelectorAll('.service-item-build').forEach(target => target.classList.add('showcase-menu-active')); 
-});
-});  
+    //  Build Images
+    document.querySelectorAll('.service-item-build').forEach(trigger => {
+        trigger.addEventListener('mouseover', function () {
+            document.querySelectorAll('.service-images').forEach(target => target.classList.remove('active-images'));
+            document.querySelectorAll('.build-images').forEach(target => target.classList.add('active-images'));
+            document.querySelectorAll('.service-inner-text').forEach(target => target.classList.remove('active-images'));
+            document.querySelectorAll('.service-inner-build-text').forEach(target => target.classList.add('active-images'));
+            document.querySelectorAll('.service-menu-item').forEach(target => target.classList.remove('showcase-menu-active'));
+            document.querySelectorAll('.service-item-build').forEach(target => target.classList.add('showcase-menu-active'));
+        });
+    });
 
 
 });
@@ -60,12 +60,12 @@ console.log("güncel dosya geldi");
 // Create a condition that targets viewports at least 768px wide
 const mediaQuery = window.matchMedia('(min-width: 992px)')
 function handleTabletChange(e) {
-  // Check if the media query is true
-  if (e.matches) {
-    // Then log the following message to the console
-    console.log('Media Query Matched!')
-    
-/*Detect if Visible*/
+    // Check if the media query is true
+    if (e.matches) {
+        // Then log the following message to the console
+        console.log('Media Query Matched!')
+
+        /*Detect if Visible*/
 
         /* 
         Make Works Title Sticky(Position Fixed) if specified elements appear on the 
@@ -232,9 +232,9 @@ function handleTabletChange(e) {
         });
 
 
-    // ENDS HERE Enter Observer for the sticky title of the WhatWeDo Section
-    
-  }
+        // ENDS HERE Enter Observer for the sticky title of the WhatWeDo Section
+
+    }
 }
 // Register event listener
 mediaQuery.addListener(handleTabletChange)
@@ -243,3 +243,42 @@ mediaQuery.addListener(handleTabletChange)
 handleTabletChange(mediaQuery)
 
 /* Ends Here Detect if Visible */
+
+
+/* Mobile JS Test */
+
+// Browser Tab Color change on white screen
+// -----------------------------------------
+let metaTabColor = document.querySelector("meta[name='theme-color']");
+// metaTabColor.setAttribute("content", "#ffffff");
+// console.log(metaTabColor);
+
+let EnterObserverTargetsForWhiteSection = document.querySelectorAll('#services, #showcase-section');
+
+EnterObserverTargetsForWhiteSection.forEach((section) => {
+    EnterObserverForWhiteSection.observe(section);
+});
+
+/*callback function*/
+function callbackWhiteSection(entry) {
+
+    entry.forEach((piece) => {
+        if (piece.isIntersecting) {
+            piece.target.classList.add('visible');
+            console.log("WhiteSection için enter callback çalıştı.");
+            metaTabColor.setAttribute("content", "#ffffff");
+            console.log(metaTabColor);
+        }
+
+    });
+
+}
+
+/*Options for Works Title Observer */
+const WhiteSectionOptions = {
+    threshold: 0.15
+}
+
+const EnterObserverForWhiteSection = new IntersectionObserver(callbackWhiteSection, WhiteSectionOptions);
+
+
