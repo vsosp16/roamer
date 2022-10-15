@@ -57,8 +57,8 @@ TEST CODE FOR VERSIONING
 console.log("güncel dosya geldi");
 
 // Detect if Visible
-// Create a condition that targets viewports at least 768px wide
-const mediaQuery = window.matchMedia('(min-width: 992px)')
+// Create a condition that targets viewports at least 1280px wide
+const mediaQuery = window.matchMedia('(min-width: 1280px)')
 function handleTabletChange(e) {
     // Check if the media query is true
     if (e.matches) {
