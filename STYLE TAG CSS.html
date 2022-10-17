@@ -176,9 +176,6 @@
         }
     }
 
-    @media screen and (min-width:992px) and (max-width: 1025px) and (orientation: landscape) {
-
-    }
 
     /*TYPOGRAPHY*/
     /*--------------------*/
@@ -233,26 +230,16 @@
     }
 
     /*TYPOGRAPHY ENDS HERE*/
-
-    /*RESPONSIVE TYPOGRAPHY FOR SPESIFIC ELEMENTS*/
-    @media only screen and (min-width:1441px) and (max-width: 1600px) {
-        /*Hero Section Responsive Title*/
-
+    /*Mobil Nav*/
+    a.nav-link.w-nav-link.w--nav-link-open::before {
+        width: 1em;
+        height: 0.5em;
+        content: "";
+        background: white;
+        display: inline-block;
+        border-radius: 0 0 10em 10em;
+        margin-right: 10px;
     }
-
-    @media only screen and (min-width:1441px) and (max-width: 1600px) {
-        /*Hero Section Responsive Absolute Text*/
-
-
-    }
-
-    @media only screen and (min-width:1601px) and (max-width: 1919px) {
-        /*Hero Section Responsive Absolute Text*/
-    }
-
-    /*RESPONSIVE TYPOGRAPHY FOR SPESIFIC ELEMENTS*/
-
-
 
 
     /*HERO SECTION*/
@@ -368,38 +355,7 @@
         }
     }
 
-
-
-
-
-    /*Mobil Nav*/
-    a.nav-link.w-nav-link.w--nav-link-open::before {
-        width: 1em;
-        height: 0.5em;
-        content: "";
-        background: white;
-        display: inline-block;
-        border-radius: 0 0 10em 10em;
-        margin-right: 10px;
-    }
-
     /*Disable Mobil Landscape*/
     @media only screen and (min-width: 1440px) and (max-width: 1920px) and (orientation: landscape) and (aspect-ratio: 16/10) {}
 
-
-
-    /*Animating Text on load*/
-    /*.skewy{
-        opacity: 0;
-        transform: translateY(100%) rotateX(-80deg);
-        transform-origin: center top;
-        transform-style: preserve-3d;
-        transition: opacity 1s cubic-bezier(.215,.61,.355,1),transform 0s cubic-bezier(.215,.61,.355,1);
-    }
-    .skewy.animate-now{
-        opacity: 1;
-        transform: none;
-        text-transform: none;
-    }
-    */
 </style>
